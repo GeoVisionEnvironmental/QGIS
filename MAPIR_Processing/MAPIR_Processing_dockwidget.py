@@ -203,6 +203,7 @@ class MAPIR_ProcessingDockWidget(QtGui.QDockWidget, FORM_CLASS):
 
 
 
+
     def on_KernelExposureMode_currentIndexChanged(self, int):
         if self.KernelExposureMode.currentIndex() == 0:
             self.KernelISO.setEnabled(False)
@@ -347,6 +348,11 @@ class MAPIR_ProcessingDockWidget(QtGui.QDockWidget, FORM_CLASS):
             str(self.weeks) + 'w, ' + str(self.days) + 'd, ' + str(self.hours) + 'h, ' + str(self.minutes) + 'm,' + str(
                 self.seconds) + 's')
     #########Pre-Process Steps: Start#################
+    def on_PreProcessCameraModel_currentIndexChanged(self):
+        self.PreProcessLog.append("Index Changed\n")
+
+
+
     def on_PreProcessInButton_released(self):
         with open(modpath + os.sep + "instring.txt", "r+") as instring:
             self.PreProcessInFolder.setText(QtGui.QFileDialog.getExistingDirectory(directory=instring.read()))
@@ -840,7 +846,7 @@ class MAPIR_ProcessingDockWidget(QtGui.QDockWidget, FORM_CLASS):
             #     indeximg = indeximg.astype("float32")
             #     cv2.imwrite(output_directory + photo.split('.')[1] + "_Indexed.JPG", indeximg, [int(cv2.IMWRITE_JPEG_QUALITY), 100])
             #     self.copyExif(photo, output_directory + photo.split('.')[1] + "_Indexed.JPG")
-            #todo See if JPG can store geotiff metadata
+            # See if JPG can store geotiff metadata
         else:
             newimg = output_directory + photo.split('.')[1] + "_CALIBRATED." + photo.split('.')[2]
             if 'tif' in photo.split('.')[2].lower():
@@ -1074,6 +1080,7 @@ class MAPIR_ProcessingDockWidget(QtGui.QDockWidget, FORM_CLASS):
                 self.PreProcessLog.append(
                     "processing image: " + str((counter) + 1) + " of " + str(len(infiles)) +
                     " " + input.split(os.sep)[1])
+                QtGui.qApp.processEvents()
                 self.openDNG(infolder + input.split('.')[1] + "." + input.split('.')[2], outfolder, customerdata)
 
                 counter += 1
@@ -1086,6 +1093,7 @@ class MAPIR_ProcessingDockWidget(QtGui.QDockWidget, FORM_CLASS):
                 self.PreProcessLog.append(
                     "processing image: " + str((counter) + 1) + " of " + str(len(infiles)) +
                     " " + input.split(os.sep)[1])
+                QtGui.qApp.processEvents()
                 filename = input.split('.')
                 outputfilename = filename[1] + '.tiff'
                 self.openMapir(infolder + input.split('.')[1] + "." + input.split('.')[2], outfolder + outputfilename)
@@ -1106,6 +1114,7 @@ class MAPIR_ProcessingDockWidget(QtGui.QDockWidget, FORM_CLASS):
                         self.PreProcessLog.append(
                             "processing image: " + str((counter / 2) + 1) + " of " + str(len(infiles) / 2) +
                             " " + input.split(os.sep)[1])
+                        QtGui.qApp.processEvents()
                     with open(input, "rb") as rawimage:
                         img = np.fromfile(rawimage, np.dtype('u2'), self.imsize).reshape((self.imrows, self.imcols))
                         color = cv2.cvtColor(img, cv2.COLOR_BAYER_RG2RGB)
