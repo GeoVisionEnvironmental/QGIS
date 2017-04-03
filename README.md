@@ -50,6 +50,11 @@ Functionality still in the works:
 ## Change Log
 All notable changes to this project will be documented in this file.
 
+### [1.0.9] - 2017-04-03
+#### Fixed
+-Issue locating QR taget when supplied with a JPG.
+-Issue processing images from Survey1 camera.
+
 ### [1.0.8] - 2017-03-07
 #### Fixed
 -Issue with Calibration step and inproper indexing of camera models.
