@@ -5,7 +5,7 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 ##Attention: We've found a fatal flaw in trying to run the plugin on MacOS, Mac support will be discontinued until further notice
 
 ## Latest Version 1.0.9
-####[QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04032017.zip)
+#### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04032017.zip)
 
 ### [1.0.9] - 2017-04-03
 #### Fixed
