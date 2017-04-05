@@ -50,38 +50,42 @@ Functionality still in the works:
 ## Change Log
 All notable changes to this project will be documented in this file.
 
+### [1.1.0] - 2017-04-05
+#### Fixed
+- Issue where JPGs from the DJI model cameras were coming out black.
+
 ### [1.0.9] - 2017-04-03
 #### Fixed
--Issue locating QR taget when supplied with a JPG.
--Issue processing images from Survey1 camera.
+- Issue locating QR taget when supplied with a JPG.
+- Issue processing images from Survey1 camera.
 
 ### [1.0.8] - 2017-03-07
 #### Fixed
--Issue with Calibration step and inproper indexing of camera models.
+- Issue with Calibration step and inproper indexing of camera models.
 
 ### [1.0.7] - 2017-03-02
 #### Changed
--Removed the Vignette correction and color normalization due to a critical flaw in the design. 
--Modified the UI to support lens and filter options for future use.
+- Removed the Vignette correction and color normalization due to a critical flaw in the design. 
+- Modified the UI to support lens and filter options for future use.
 
 ### [1.0.6] - 2017-02-10
 #### Changed
--Plugin now allows for users to trun vignette correction on/off
+- Plugin now allows for users to trun vignette correction on/off
 
 ### [1.0.5] - 2017-02-07
 #### Fixed
--EXIF information now properly copied, including geotagging information
--Program no longer tries to read GDAL projections from images other than GeoTIFFs
+- EXIF information now properly copied, including geotagging information
+- Program no longer tries to read GDAL projections from images other than GeoTIFFs
 
 ### [1.0.4] - 2017-01-31
 #### Added
--Vignette correction
+- Vignette correction
 
 #### Changed
--Vignette correction and normalization are now always performed
+- Vignette correction and normalization are now always performed
 
 #### Fixed
--Plugin now transfers projection data in preprocess and calibrate steps
+- Plugin now transfers projection data in preprocess and calibrate steps
 
 ### [1.0.3] - 2016-12-19
 #### Added
