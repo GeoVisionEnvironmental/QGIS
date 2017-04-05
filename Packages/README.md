@@ -4,8 +4,12 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 
 ##Attention: We've found a fatal flaw in trying to run the plugin on MacOS, Mac support will be discontinued until further notice
 
-## Latest Version 1.0.9
-#### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04032017.zip)
+## Latest Version 1.1.0
+#### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04052017.zip)
+
+### [1.1.0] - 2017-04-05
+#### Fixed
+- Issue where JPGs from the DJI model cameras were coming out black.
 
 ### [1.0.9] - 2017-04-03
 #### Fixed
@@ -89,7 +93,9 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 
 ## Previous Versions
 
-#### [Version 1.0.7](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_03072017.zip)
+#### [Version 1.0.9](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04032017.zip)
+
+#### [Version 1.0.8](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_03072017.zip)
 
 #### [Version 1.0.7](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_03022017.zip)
 
