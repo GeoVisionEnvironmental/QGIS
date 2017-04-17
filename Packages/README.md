@@ -2,7 +2,7 @@ This directory contains the download link to a pre-packeged version of the plugi
 
 Windows Users: Please run QGIS as the administrator the first time you install our plugin. The next times you do not need to run as administrator.
 
-## Attention: We've found a fatal flaw in trying to run the plugin on MacOS, Mac support will be discontinued until further notice
+## Attention: We've found a fatal flaw in trying to run the plugin on MacOS, Mac support will be discontinued until further notice. Also, There seems to be an issue with scipy.stats and the newest version of QGIS. Latest tested revision of QGIS is 2.18.4
 
 ## Latest Version 1.1.0
 #### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04052017.zip)
