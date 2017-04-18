@@ -50,6 +50,10 @@ Functionality still in the works:
 ## Change Log
 All notable changes to this project will be documented in this file.
 
+### [1.1.1] - 2017-04-16
+#### Fixed
+-Typoes cv2tColor -> cvtColor.
+
 ### [1.1.0] - 2017-04-05
 #### Fixed
 - Issue where JPGs from the DJI model cameras were coming out black.
