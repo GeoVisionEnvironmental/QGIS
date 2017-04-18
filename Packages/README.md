@@ -4,8 +4,12 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 
 ## Attention: We've found a fatal flaw in trying to run the plugin on MacOS, Mac support will be discontinued until further notice. Also, There seems to be an issue with scipy.stats and the newest version of QGIS. Latest tested revision of QGIS is 2.18.4
 
-## Latest Version 1.1.0
-#### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04052017.zip)
+## Latest Version 1.1.1
+#### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04162017.zip)
+
+### [1.1.1] - 2017-04-16
+#### Fixed
+-Typoes cv2tColor -> cvtColor.
 
 ### [1.1.0] - 2017-04-05
 #### Fixed
@@ -92,6 +96,8 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 - Issue with merging channels in DJIx3 images
 
 ## Previous Versions
+
+#### [Version 1.1.0](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04052017.zip)
 
 #### [Version 1.0.9](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04032017.zip)
 
