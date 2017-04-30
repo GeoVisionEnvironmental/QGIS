@@ -1,4 +1,4 @@
-This directory contains the download link to a pre-packeged version of the plugin.
+This directory contains the download link to a pre-packaged version of the plugin.
 
 Windows Users: Please run QGIS as the administrator the first time you install our plugin. The next times you do not need to run as administrator.
 
