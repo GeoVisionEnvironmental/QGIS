@@ -51,6 +51,11 @@ Functionality still in the works:
 ## Change Log
 All notable changes to this project will be documented in this file.
 
+### [1.1.3] - 2017-05-09
+#### Fixed
+-Uploaded correct UI file
+-Camera model index logic
+
 ### [1.1.2] - 2017-05-08
 #### Fixed
 -An logic error when reading .tiff calibration target images.
