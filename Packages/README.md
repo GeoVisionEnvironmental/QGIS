@@ -12,6 +12,7 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 #### Fixed
 -Uploaded correct UI file
 -Camera model index logic
+-Calibration values generated from default JPG image calibration
 
 ### [1.1.2] - 2017-05-08
 #### Fixed
