@@ -4,8 +4,14 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 
 ## Attention: We've found a fatal flaw in trying to run the plugin on MacOS, Mac support will be discontinued until further notice.
 
-## Latest Version 1.1.2
-#### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_05082017.zip)
+## Latest Version 1.1.3
+#### [QGIS package](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_05092017.zip)
+
+
+### [1.1.3] - 2017-05-09
+#### Fixed
+-Uploaded correct UI file
+-Camera model index logic
 
 ### [1.1.2] - 2017-05-08
 #### Fixed
@@ -100,6 +106,8 @@ Windows Users: Please run QGIS as the administrator the first time you install o
 - Issue with merging channels in DJIx3 images
 
 ## Previous Versions
+
+#### [Version 1.1.2](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_05082017.zip)
 
 #### [Version 1.1.1](http://www.docs.peauproductions.com/qgis/MAPIR_Processing_04162017.zip)
 
