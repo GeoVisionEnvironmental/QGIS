@@ -55,6 +55,7 @@ All notable changes to this project will be documented in this file.
 #### Fixed
 -Uploaded correct UI file
 -Camera model index logic
+-Calibration values generated from default JPG image calibration
 
 ### [1.1.2] - 2017-05-08
 #### Fixed
