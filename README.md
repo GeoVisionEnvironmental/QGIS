@@ -1,3 +1,8 @@
+# We've moved all of the functionality of the QGIS plugin to a standalone program over on our MAPIR_Camera_Control repository. We will no longer update or support this plugin.
+
+
+
+
 # QGIS Distribution for MAPIR Cameras
 This repository contains the QGIS distribution for use with MAPIR cameras. The distribution is in a beta stage while we work on getting it placed in the QGIS plugin repository.
 
