@@ -1,4 +1,4 @@
-# We've moved all of the functionality of the QGIS plugin to a standalone program over on our MAPIR_Camera_Control repository. We will no longer update or support this plugin.
+# We've moved all of the functionality of the QGIS plugin to a standalone program over on our [MAPIR_Camera_Control repository](https://github.com/mapircamera/MAPIR_Camera_Control). We will no longer update or support this plugin.
 
 
 
